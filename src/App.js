@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Bienvenue from './Bienvenue';
+import Compteur from './Compteur';
+import Form from './Form';
+import ListeFruit from './ListeFruit';
+import ListeUtilisateur from './ListeUtilisateurs';
+import User from './my-user';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <p>Compteur</p>
+    <Compteur />
+    <p>Form</p>
+    <Form />
+    <p>Bienvenue</p>
+    <Bienvenue nom="Meryem" />
+    <p>ListeFruit</p>
+    <ListeFruit />
+    <p>ListeUtilisateur</p>
+    <ListeUtilisateur />
+    <p>User</p>
+    <User />
     </div>
+
   );
 }
 
