@@ -2,6 +2,7 @@ import './App.css';
 import Bienvenue from './Bienvenue';
 import Compteur from './Compteur';
 import Form from './Form';
+import FormuseRef from './FormuseRef';
 import ListeFruit from './ListeFruit';
 import ListeUtilisateur from './ListeUtilisateurs';
 import ListeUserApi from './ListUserApi';
@@ -24,6 +25,7 @@ function App() {
     <p>User</p>
     <User />
     <ListeUserApi />
+    <FormuseRef />
     </div>
 
   );
