@@ -4,6 +4,7 @@ import Compteur from './Compteur';
 import Form from './Form';
 import ListeFruit from './ListeFruit';
 import ListeUtilisateur from './ListeUtilisateurs';
+import ListeUserApi from './ListUserApi';
 import User from './my-user';
 
 
@@ -22,6 +23,7 @@ function App() {
     <ListeUtilisateur />
     <p>User</p>
     <User />
+    <ListeUserApi />
     </div>
 
   );
